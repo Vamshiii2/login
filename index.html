@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research Platform</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      nav {
+        background-color: #565050;
+        color: white;
+        padding: 40px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        z-index: 999;
+        top: 0;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo img {
+        height: 30px; /* Adjust the height of the logo as needed */
+        margin-right: 10px;
+      }
+
+      .logo a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 25px;
+      }
+
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 5px 0;
+        font-weight: bold;
+        font-size: 25px;
+      }
+
+      .auth-buttons {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+      }
+
+      .auth-buttons a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+
+      @media only screen and (min-width: 768px) {
+        .nav-links {
+          flex-direction: row;
+          margin-top: 0;
+        }
+      }
+
+      .auth-buttons a:hover,
+      .nav-links a:hover {
+        background-color: #555;
+      }
+
+      .first {
+        display: flex;
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .firstleft {
+        flex: 1;
+        padding: 20px; /* Adjust the padding as needed */
+      }
+
+      .firstright {
+        flex: 1;
+        text-align: right;
+        padding: 20px; /* Adjust the padding as needed */
+      }
+
+      .firstright img {
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        height: auto;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        padding: 30px;
+        /* position: fixed; */
+
+        bottom: 0;
+        width: 100%;
+      }
+      .main-content {
+        display: flex;
+        /* 
+        align-items: center; */
+        flex-direction: column;
+      }
+      .content {
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+      }
+
+      .firstright img {
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        height: auto;
+      }
+      .content1,
+      .content2,
+      .content3,
+      .content4 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .text {
+        flex: 1;
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+      }
+
+      .contentimg1 {
+        flex: 1;
+        text-align: center;
+      }
+
+      .contentimg1 img {
+        max-width: 100%;
+        height: 50vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="your-logo.png" alt="Logo" />
+        <!-- Replace 'your-logo.png' with your actual logo -->
+        <!-- <a href="#">Research Platform</a> -->
+      </div>
+
+      <div class="nav-links">
+        <!-- <a href="#">Home</a> -->
+        <!-- <a href="#">Research Areas</a>
+        <a href="#">Publications</a>
+        <a href="#">Team</a> -->
+        <!-- <a href="#">Contact</a> -->
+        <a href="#">Research Platform</a>
+      </div>
+
+      <div class="auth-buttons">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+      </div>
+    </nav>
+
+    <!-- Your main content goes here -->
+    <div class="first">
+      <div class="firstleft">
+        Discover scientific knowledge and stay connected to the world of science
+      </div>
+      <div class="firstright">
+        <img
+          src="https://www.discoverphds.com/wp-content/uploads/2020/12/How-to-Build-a-Research-Collaboration.jpg"
+        />
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="content">
+        <p>Why Research Platform?</p>
+      </div>
+      <div class="content1">
+        <div class="contentimg1">
+          <img src="images/chat3.png" />
+        </div>
+        <div class="text">
+          <h2>Chat Feature</h2>
+          <span>
+            Our research collaborative platform is equipped with an advanced
+            chat feature, fostering seamless communication among researchers.
+            This real-time messaging system allows users to engage in
+            discussions, share ideas, and collaborate effortlessly.
+          </span>
+        </div>
+      </div>
+      <div class="content2">
+        <div class="text">
+          <h2>Tool Management with Milestone and Task Due Dates</h2>
+          <p>
+            Our platform prioritizes efficient project management, allowing
+            researchers to set milestones and task due dates for a structured
+            workflow. Tracking deadlines ensures projects stay on schedule,
+            fostering collaboration and helping teams achieve research goals
+            seamlessly.
+          </p>
+        </div>
+        <div class="contentimg1">
+          <img src="images/chat2.png" />
+        </div>
+      </div>
+      <div class="content3">
+        <div class="contentimg1">
+          <img src="images/chat2.png" />
+        </div>
+        <div class="text">
+          <h2>Editing Options</h2>
+          <p>
+            Collaborate seamlessly with our integrated editing options,
+            facilitating real-time collaboration on documents. Simultaneous
+            edits, comments, and version history enhance transparency, ensuring
+            a smooth and collaborative writing process for your research team.
+          </p>
+        </div>
+      </div>
+      <div class="content4">
+        <div class="text">
+          <h2>Search Based on Similar Interests</h2>
+          <p>
+            Simplify research exploration with our platform's search function,
+            connecting researchers with shared interests. Analyzing profiles,
+            project descriptions, and keywords, this powerful tool facilitates
+            targeted searches to enhance collaboration.
+          </p>
+        </div>
+        <div class="contentimg1">
+          <img src="images/chat2.png" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
